@@ -20,9 +20,23 @@ body{
     background-color: var(--bg-color);
 }
 
+#home{
+    height: 100rem;
+    background-image: url("../assets/Forma2.png");
+    background-repeat: no-repeat;
+    background-size: 8.4rem 41.5rem;
+    background-position: 29rem 19.9rem;
+    background-position-x: right;
+    background-origin: padding-box;
+}
+
 .container{
     width: min(50rem, 100%);
     margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* NAV BAR --------------------- */
@@ -40,14 +54,6 @@ nav .menu-itens a:nth-child(1){
 }
 
 /* SECTION HOME --------------------- */
-#home .container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-inline: auto;
-    align-items: center;
-}
-
 #home .container svg{
     margin-top: 17.5rem;
     margin-bottom: 3.1rem;
@@ -67,6 +73,7 @@ nav .menu-itens a:nth-child(1){
     width: 24rem;
     margin-left: 5.6rem;
     margin-right: 5.6rem;
+    text-align: center;
 }
 
 #home .content p{
@@ -76,7 +83,6 @@ nav .menu-itens a:nth-child(1){
     line-height: 100%;
     margin-bottom: 2.4rem;
     vertical-align: top;
-
 }
 
 #home .container button{
@@ -96,4 +102,21 @@ nav .menu-itens a:nth-child(1){
 
     border: 1px solid #3772FF;
     cursor: pointer;
+}
+
+/* footer ------------- */
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    height: 10.4rem;
+    background-color: #36D6AD;
+    color: white;
+}
+
+footer p{
+    margin-block: 4.1rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    height: 400;
+    text-align: center;
 }
