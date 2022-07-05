@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62,5%; /* 1rem = 10px */
+    --bg-color:hsl(222, 100%, 61%);
+}
+
+body{
+    background-image: url("../assets/Vector1.png"),url("../assets/Vector4.png");
+    background-repeat: no-repeat;
+    background-size: 33rem 27rem, 35rem 29rem;
+    background-origin: padding-box;
+    background-position: top center;
+    background-color: var(--bg-color);
+}
+
+nav .menu-itens{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin-top: 4.8rem;
+    margin-left: 4.8rem;
+    margin-right: 5.8rem;
+}
+
+nav .menu-itens a:nth-child(1){
+    margin-right: 5.8rem;
+}
+
