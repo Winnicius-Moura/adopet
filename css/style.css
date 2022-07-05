@@ -5,19 +5,27 @@
 }
 
 :root{
-    font-size: 62,5%; /* 1rem = 10px */
+    font-size: 62.5%; /* 1rem = 10px */
     --bg-color:hsl(222, 100%, 61%);
+    --button-color:hsl(360, 96%, 71%);
+    
 }
 
 body{
     background-image: url("../assets/Vector1.png"),url("../assets/Vector4.png");
     background-repeat: no-repeat;
-    background-size: 33rem 27rem, 35rem 29rem;
+    background-size: 33.325rem 27.352rem, 35.211rem 29.5rem;
     background-origin: padding-box;
-    background-position: top center;
+    /* background-position: top center; */
     background-color: var(--bg-color);
 }
 
+.container{
+    width: min(50rem, 100%);
+    margin-inline: auto;
+}
+
+/* NAV BAR --------------------- */
 nav .menu-itens{
     display: flex;
     width: fit-content;
@@ -31,3 +39,61 @@ nav .menu-itens a:nth-child(1){
     margin-right: 5.8rem;
 }
 
+/* SECTION HOME --------------------- */
+#home .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-inline: auto;
+    align-items: center;
+}
+
+#home .container svg{
+    margin-top: 17.5rem;
+    margin-bottom: 3.1rem;
+}
+
+#home .container h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 2.6rem;
+    line-height: 142%;
+    margin-bottom: 1.6rem;
+    margin-left: 1rem;
+}
+
+#home .content{
+    width: 24rem;
+    margin-left: 5.6rem;
+    margin-right: 5.6rem;
+}
+
+#home .content p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 100%;
+    margin-bottom: 2.4rem;
+    vertical-align: top;
+
+}
+
+#home .container button{
+    background: var(--button-color);
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: white;
+
+    margin-bottom: 1.6rem;
+    border: none;
+    border-radius: .6rem;
+    width: 18rem;
+    height: 4rem;
+
+    border: 1px solid #3772FF;
+    cursor: pointer;
+}
