@@ -10,24 +10,18 @@
     --button-color:hsl(360, 96%, 71%);
     
 }
-
-body{
-    background-image: url("../assets/Vector1.png"),url("../assets/Vector4.png");
-    background-repeat: no-repeat;
-    background-size: 33.325rem 27.352rem, 35.211rem 29.5rem;
-    background-origin: padding-box;
-    /* background-position: top center; */
-    background-color: var(--bg-color);
+html{
+    height: 100%;
+    min-height: 100%;
 }
 
-#home{
-    height: 100rem;
-    background-image: url("../assets/Forma2.png");
+body{
+    background-image: url("../assets/Forma1.png"),url("../assets/Forma2.png"), url("../assets/Ilustração1.png");
     background-repeat: no-repeat;
-    background-size: 8.4rem 41.5rem;
-    background-position: 29rem 19.9rem;
-    background-position-x: right;
+    background-size: 33.325rem 27.352rem, 8.4rem 41.5rem, 24.734rem;
     background-origin: padding-box;
+    background-color: var(--bg-color);
+    background-position: left top, right center, bottom 5rem center;
 }
 
 .container{
@@ -40,6 +34,10 @@ body{
 }
 
 /* NAV BAR --------------------- */
+nav{
+    width: min(170rem, 100%);
+    margin-inline: auto;
+}
 nav .menu-itens{
     display: flex;
     width: fit-content;
@@ -74,6 +72,7 @@ nav .menu-itens a:nth-child(1){
     margin-left: 5.6rem;
     margin-right: 5.6rem;
     text-align: center;
+    
 }
 
 #home .content p{
@@ -85,7 +84,7 @@ nav .menu-itens a:nth-child(1){
     vertical-align: top;
 }
 
-#home .container button{
+#home .container .button{
     background: var(--button-color);
     font-family: 'Poppins', sans-serif;
 
@@ -102,15 +101,21 @@ nav .menu-itens a:nth-child(1){
 
     border: 1px solid #3772FF;
     cursor: pointer;
-}
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+
+    text-decoration: none;
+}
 /* footer ------------- */
 
 footer{
     font-family: 'Poppins', sans-serif;
-    height: 10.4rem;
     background-color: #36D6AD;
     color: white;
+    margin-top: 31.9rem;
 }
 
 footer p{
