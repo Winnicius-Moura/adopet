@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%; /* 1rem = 10px */
+    --bg-color:#3874ff;
+    --button-color:#fc6e6e;
+    --adopet-color:#3772FF;
+    --color-forms:#737380;
+    
+}
+html{
+    height: 100%;
+    min-height: 100%;
+}
+
+body{
+    background-image: url("../assets/Patas.png"),url("../assets/Forma1.png"), url("../assets/Forma-2.png");
+    background-repeat: no-repeat;
+    background-size: 18.9rem 28.3rem, 33.3rem 27.3rem, 8.4rem 41.5rem;
+    background-origin: content-box;
+    background-color: white;
+    background-position:right top, left top, center left;
+}
+
+.container{
+    width: min(50rem, 100%);
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* NAV BAR --------------------- */
+nav{
+    width: min(170rem, 100%);
+    margin-inline: auto;
+}
+nav .menu-itens{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin-top: 4.8rem;
+    margin-left: 4.8rem;
+    margin-right: 5.8rem;
+}
+
+nav .menu-itens a:nth-child(1){
+    margin-right: 5.8rem;
+}
+
+/* SECTION HOME --------------------- */
+#home .container svg{
+    margin-top: 15.6rem;
+    margin-bottom: 3.1rem;
+}
+
+#home .container svg path{
+    fill:var(--adopet-color);
+}
+
+#home .content{
+    width: 31.2rem;
+    margin-left: 5.6rem;
+    margin-right: 5.6rem;
+    text-align: center;
+    
+}
+
+#home .content p{
+    font-family: 'Poppins', sans-serif;
+    color: var(--adopet-color);
+    font-size: 1.6rem;
+    line-height: 100%;
+    margin-bottom: 2.4rem;
+    vertical-align: top;
+}
+
+#home .container .button{
+    background: var(--button-color);
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: white;
+
+    margin-bottom: 1.6rem;
+    border: none;
+    border-radius: .6rem;
+    width: 14.8rem;
+    height: 4rem;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+
+    text-decoration: none;
+}
+
+/* Formulario #home --------------- */
+
+#home .registration form{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-block: 2.4rem;
+}
+
+#home .registration form label{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color:var(--color-forms);
+    line-height: 2.4rem;
+}
+
+#home .registration form input{
+    background-color: #F6F6F6;
+    color: var(--color-forms);
+    border-radius: .6rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+
+    width: 31.2rem;
+    height: 4rem;
+    text-align: center;
+
+    border: none;
+    resize: none;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+#home .registration form input::placeholder{
+    font-size: 1.2rem;
+    color: #BCBCBC;
+    line-height: 1.6rem;
+}
+#home .registration form input.senha{
+    background-image: url("../assets/Vector.png");
+    background-repeat: no-repeat;
+    background-size: 1.8rem;
+    background-position: center right 1.6rem;
+}
+
+
+
+
+
+/* footer ------------- */
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: #36D6AD;
+    color: white;
+    margin-top: 10.5rem ;
+}
+
+footer p{
+    margin-block: 4.1rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    height: 400;
+    text-align: center;
+}
