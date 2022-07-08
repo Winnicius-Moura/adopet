@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%; /* 1rem = 10px */
+    --bg-color:#3874ff;
+    --button-color:#fc6e6e;
+    --adopet-color:#3772FF;
+    --color-forms:#737380;
+    --bg-gray:#F6F6F6;
+    
+}
+html{
+    height: 100%;
+    min-height: 100%;
+}
+
+body{
+    background-image: url("../assets/Forma1.png");
+    background-repeat: no-repeat;
+    background-size: 33.3rem 27.3rem;
+    background-origin: content-box;
+    background-color: white;
+    background-position:left top;
+}
+
+.container{
+    width: min(50rem, 100%);
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* NAV BAR --------------------- */
+nav{
+    width: min(170rem, 100%);
+    margin-inline: auto;
+}
+nav .menu-itens{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin-top: 4.8rem;
+    margin-left: 4.8rem;
+    margin-right: 5.8rem;
+}
+
+nav .menu-itens a:nth-child(1){
+    margin-right: 5.8rem;
+}
+
+nav .menu-itens a:nth-child(2){
+    margin-right: 13.4rem;
+}
+/* SECTION HOME --------------------- */
+
+#home .registration{
+    background-color: var(--bg-gray);
+    width: 31.2rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+#home .content{
+    width: 31.2rem;
+    margin-left: 6.7rem;
+    margin-right: 6.7rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+#home .content p{
+    font-family: 'Poppins', sans-serif;
+    color: var(--adopet-color);
+    font-size: 1.6rem;
+    line-height: 100%;
+    line-height: 2rem;
+    margin-bottom: 2.4rem;
+    vertical-align: top;
+    width: 22.6rem;
+    margin-inline: auto;
+
+}
+
+/* Formulario #home --------------- */
+
+#home .registration form{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-block: 2.4rem;
+    text-align: left;
+}
+
+#home .registration form label:nth-child(1){
+    margin-top: 6.4rem;
+}
+
+#home .registration form label{
+    font-weight: 600;
+    font-size: 1.6rem;
+    color:var(--adopet-color);
+    line-height: 2.4rem;
+    margin-left: 1.6rem;
+    margin-bottom: .8rem;
+}
+
+#home .registration form input{
+    background-color: white;
+    color: var(--color-forms);
+    border-radius: .6rem;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+
+    width: 28rem;
+    height: 4rem;
+    
+    text-align: center;
+
+    border: none;
+    resize: none;
+    outline: none;
+    margin-bottom: 2rem;
+    margin-inline: 1.6rem;
+}
+
+#home .registration form input::placeholder{
+    font-size: 1.4rem;
+    color: #BCBCBC;
+    line-height: 1.6rem;
+
+}
+
+#home .registration form textarea{
+    font-family: 'Poppins', sans-serif;
+    color: #BCBCBC;
+    width: 28rem;
+    height: 17.2rem;
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 1.6rem;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+#home .registration form textarea::placeholder{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+
+}
+
+#home .registration #mensagem{
+    margin-bottom: 1.6rem;
+}
+
+
+#home .container .button{
+    background: var(--button-color);
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: white;
+
+    border: none;
+    border-radius: .6rem;
+    width: 14.8rem;
+    height: 4rem;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    margin-bottom: 3.2rem;
+    margin-top: 2.2rem;
+
+
+    text-decoration: none;
+}
+
+
+/* footer ------------- */
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: #36D6AD;
+    color: white;
+    margin-top: 1.6rem ;
+}
+
+footer p{
+    margin-block: 4.1rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    height: 400;
+    text-align: center;
+}
