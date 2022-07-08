@@ -21,7 +21,7 @@ body{
     background-size: 33.325rem 27.352rem, 8.4rem 41.5rem, 24.734rem;
     background-origin: padding-box;
     background-color: var(--bg-color);
-    background-position: left top, right center, bottom 5rem center;
+    background-position: left top, right center, bottom 4rem center;
 }
 
 .container{
