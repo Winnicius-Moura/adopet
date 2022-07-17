@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopet</title>
-    <link rel="stylesheet" href="./css/mensagem.css">
+    <link rel="stylesheet" href="./css/perfil.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 <body>
     <nav id="navigation">
         <header>
-            <div class="menu-itens">
+            <div class="menu-itens"> 
                 <a href="./index.html">
                     <svg width="20" height="23" viewBox="0 0 20 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 23V7.66667L9.66 0L19.2 7.66667V23H12.18V13.8958H6.99V23H0ZM1.8 21.0833H5.19V11.9792H13.98V21.0833H17.4V8.625L9.66 2.39583L1.8 8.625V21.0833Z" fill="white"/>
@@ -29,11 +29,7 @@
                 </a>
 
                 <a href="./login.html">
-                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="20" cy="20" r="19.5" fill="white" stroke="#36D6AD"/>
-                    <path d="M20.5 17C19.0411 17 17.6423 16.4205 16.6109 15.3891C15.5794 14.3577 15 12.9588 15 11.5C15 10.0411 15.5794 8.64228 16.6109 7.61085C17.6423 6.57943 19.0411 6 20.5 6C21.9588 6 23.3577 6.57943 24.3891 7.61085C25.4205 8.64228 26 10.0411 26 11.5C25.9982 12.9583 25.4183 14.356 24.3874 15.3874C23.356 16.4183 21.9583 16.9988 20.5 17ZM20.5 7C19.3063 7 18.1617 7.47428 17.3177 8.31828C16.4737 9.16228 16 10.3068 16 11.5C16 12.6931 16.4743 13.8383 17.3177 14.6817C18.1617 15.5257 19.3063 16 20.5 16C21.6937 16 22.8377 15.5257 23.6817 14.6817C24.5257 13.8377 25 12.6931 25 11.5C24.9988 10.3068 24.524 9.16285 23.6805 8.31942C22.8371 7.47599 21.6931 7.00114 20.5 7Z" fill="#36D6AD"/>
-                    <path d="M30.2645 31H10.7354C10.3297 30.9994 10.0006 30.6702 10 30.2645V28.5C10 25.7154 11.1063 23.0446 13.0754 21.0754C15.0446 19.1063 17.7154 18 20.5 18C23.2845 18 25.9554 19.1063 27.9245 21.0754C29.8936 23.0446 30.9999 25.7154 30.9999 28.5V30.2645C30.9994 30.6702 30.6702 30.9994 30.2645 31ZM11 30H29.9999V28.5C29.9999 25.9805 28.9994 23.564 27.2177 21.7828C25.4359 20.0011 23.02 19 20.5005 19C17.9811 19 15.5646 20.0011 13.7828 21.7828C12.0011 23.5646 11.0006 25.9805 11.0006 28.5V30H11Z" fill="#36D6AD"/>
-                    </svg>
+                    <img src="./assets/perfil.png" alt="">
                 </a>
             </div>
         </header>
@@ -43,24 +39,30 @@
         <div class="container">
             <div class="content">
                 <p>
-                    Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:
+                    Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.
                 </p>
                 <div class="registration">
+                    <div class="profile">
+                        <h2>Perfil</h2>
+                        <h3>Foto</h3>
+                        <img src="./assets/perfil.png" alt="">
+                        <p>Clique na foto para editar</p>
+                    </div>
                     <form action="">
 
                         <label for="nome">Nome</label>
-                        <input type="nome" placeholder="Insira seu nome completo">
+                        <input type="nome" placeholder="Joana Magalhães">
 
                         <label for="telefone">Telefone</label>
-                        <input type="telefone" placeholder="Insira seu telefone e/ou whatsapp">
+                        <input type="telefone" placeholder="55 11 XXXXXXXXX">
 
-                        <label for="animal">Nome do animal</label>
-                        <input type="animal" placeholder="Por qual animal você se interessou?">
+                        <label for="cidade">Cidade</label>
+                        <input type="cidade" placeholder="São Paulo">
 
-                        <label for="mensagem" id="mensagem">Mensagem</label>
-                        <textarea id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                        <label for="sobre" id="sobre">Sobre</label>
+                        <textarea id="sobre" placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati."></textarea>
                         
-                        <a href="#" class="button">Enviar</a>
+                        <a href="#" class="button">Salvar</a>
 
                     </form>
                     

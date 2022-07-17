@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root{
@@ -57,6 +58,10 @@ nav .menu-itens a:nth-child(1){
 nav .menu-itens a:nth-child(2){
     margin-right: 13.4rem;
 }
+
+nav .menu-itens img{
+    width: 4rem;
+}
 /* SECTION HOME --------------------- */
 
 #home .registration{
@@ -75,30 +80,54 @@ nav .menu-itens a:nth-child(2){
 }
 
 #home .content p{
-    font-family: 'Poppins', sans-serif;
     color: var(--adopet-color);
     font-size: 1.6rem;
     line-height: 100%;
     line-height: 2rem;
     margin-bottom: 2.4rem;
     vertical-align: top;
-    width: 22.6rem;
+    width: 24.7rem;
     margin-inline: auto;
+}
 
+#home .profile h2{
+    font-size: 2.1rem;
+    color: #737380;
+    line-height: 2.4rem;
+    font-weight: 600;
+    padding-top: 3.2rem;
+}
+
+#home .profile h3{
+    color: var(--adopet-color);
+    float: left;
+    margin-left: 1.6rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    position: absolute;
+    padding-top: 3.2rem;
+}
+
+#home .profile img{
+    padding-top: 6rem;
+}
+
+#home .profile p{
+    color: #FC7071;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    margin-bottom: .5rem;
 }
 
 /* Formulario #home --------------- */
 
 #home .registration form{
-    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
-    margin-block: 2.4rem;
+    margin-block: .5rem;
     text-align: left;
-}
-
-#home .registration form label:nth-child(1){
-    margin-top: 6.4rem;
 }
 
 #home .registration form label{
@@ -130,7 +159,7 @@ nav .menu-itens a:nth-child(2){
 
 #home .registration form input::placeholder{
     font-size: 1.4rem;
-    color: #BCBCBC;
+    color: var(--color-forms);
     line-height: 1.6rem;
     text-align: left;
     padding: 1.6rem 1.2rem;
@@ -138,10 +167,9 @@ nav .menu-itens a:nth-child(2){
 }
 
 #home .registration form textarea{
-    font-family: 'Poppins', sans-serif;
     color: #BCBCBC;
     width: 28rem;
-    height: 17.2rem;
+    height: 17.6rem;
 
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
@@ -155,22 +183,17 @@ nav .menu-itens a:nth-child(2){
 #home .registration form textarea::placeholder{
     font-size: 1.4rem;
     line-height: 2.4rem;
-    padding-left: 1.6rem;
     font-weight: 400;
-    color: #BCBCBC;
-
 }
 
-#home .registration #mensagem{
-    margin-bottom: 1.6rem;
+#home .registration #sobre{
     text-align: left;
+    padding: 1.6rem;
 }
 
 
 #home .container .button{
     background: var(--button-color);
-    font-family: 'Poppins', sans-serif;
-
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 2.4rem;
@@ -198,7 +221,6 @@ nav .menu-itens a:nth-child(2){
 /* footer ------------- */
 
 footer{
-    font-family: 'Poppins', sans-serif;
     background-color: #36D6AD;
     color: white;
     margin-top: 1.6rem ;
