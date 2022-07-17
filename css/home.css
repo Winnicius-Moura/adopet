@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    font-size: 62.5%; /* 1rem = 10px */
+    --bg-color:#3874ff;
+    --button-color:#fc6e6e;
+    --adopet-color:#3772FF;
+    --color-forms:#737380;
+    --bg-gray:#F6F6F6;
+    
+}
+html{
+    height: 100%;
+    min-height: 100%;
+}
+
+body{
+    background-image: url("../assets/Forma1.png");
+    background-repeat: no-repeat;
+    background-size: 33.3rem 27.3rem;
+    background-origin: content-box;
+    background-color: white;
+    background-position:left top;
+}
+
+ul{
+    list-style:none;
+}
+.container{
+    width: min(50rem, 100%);
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* NAV BAR --------------------- */
+nav{
+    width: min(170rem, 100%);
+    margin-inline: auto;
+}
+nav .menu-itens{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin-top: 4.8rem;
+    margin-left: 4.8rem;
+    margin-right: 5.8rem;
+}
+
+nav .menu-itens a:nth-child(1){
+    margin-right: 5.8rem;
+}
+
+nav .menu-itens a:nth-child(2){
+    margin-right: 13.4rem;
+}
+/* SECTION HOME --------------------- */
+
+#home .content{
+    width: 100vw;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+#home .content p{
+    color: var(--adopet-color);
+    font-size: 1.6rem;
+    line-height: 100%;
+    line-height: 2rem;
+    margin-bottom: 2.4rem;
+    vertical-align: top;
+    width: 22.6rem;
+    margin-inline: auto;
+}
+
+/* Pets #home --------------- */
+#home .pets{
+    background-color: var(--bg-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 22rem;
+    margin-top: 3.2rem;
+    margin-bottom: 1.6rem;
+    margin-inline: auto;
+}
+
+#home .pets img{
+    width: 14.8rem;
+    height: 14.8rem;
+    margin-left: 6.4rem;
+    margin-block: 2.4rem;
+}
+
+#home .pet-info{
+    text-align: left;
+    margin-left: 1.6rem;
+}
+
+#home .pet-info h2{
+    color: var(--adopet-color);
+    margin-bottom: .8rem;
+    margin-top: 1.6rem;
+}
+
+#home .pet-info h4{
+    color: var(--color-forms);
+    font-weight: 400;
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
+#home .pet-info h4.profile{
+    margin-bottom: 3rem;
+}
+
+#home .pet-info p{
+    color: var(--color-forms);
+}
+
+#home .pet-info ul{
+    display: flex;
+    gap: .8rem;
+    margin-bottom: 1.9rem;
+    color: var(--color-forms);
+}
+
+/* footer ------------- */
+
+footer{
+    background-color: #36D6AD;
+    color: white;
+    margin-top: 1.6rem ;
+}
+
+footer p{
+    margin-block: 4.1rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    height: 400;
+    text-align: center;
+}
