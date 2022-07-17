@@ -27,18 +27,21 @@ body{
     background-color: white;
     background-position:left top;
     overflow: overlay;
+    width: 36rem;
+    margin-inline: auto;
 }
 
 ul{
     list-style:none;
 }
 .container{
-    width: min(50rem, 100%);
+    width: min(36rem, 100%);
     margin-inline: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
 
 /* NAV BAR --------------------- */
@@ -79,6 +82,7 @@ nav .menu-itens a:nth-child(2){
     vertical-align: top;
     width: 22.6rem;
     margin-inline: auto;
+
 }
 
 /* Pets #home --------------- */
@@ -87,7 +91,7 @@ nav .menu-itens a:nth-child(2){
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 36rem;
     height: 22rem;
     margin-top: 1.6rem;
     margin-inline: auto;
@@ -124,6 +128,7 @@ nav .menu-itens a:nth-child(2){
 
 #home .pet-info p{
     color: var(--color-forms);
+    margin-bottom: .7rem;
 }
 
 #home .pet-info ul{

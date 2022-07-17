@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root{
@@ -75,7 +76,6 @@ nav .menu-itens a:nth-child(2){
 }
 
 #home .content p{
-    font-family: 'Poppins', sans-serif;
     color: var(--adopet-color);
     font-size: 1.6rem;
     line-height: 100%;
@@ -90,7 +90,6 @@ nav .menu-itens a:nth-child(2){
 /* Formulario #home --------------- */
 
 #home .registration form{
-    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     margin-block: 2.4rem;
@@ -138,7 +137,6 @@ nav .menu-itens a:nth-child(2){
 }
 
 #home .registration form textarea{
-    font-family: 'Poppins', sans-serif;
     color: #BCBCBC;
     width: 28rem;
     height: 17.2rem;
@@ -169,7 +167,6 @@ nav .menu-itens a:nth-child(2){
 
 #home .container .button{
     background: var(--button-color);
-    font-family: 'Poppins', sans-serif;
 
     font-size: 1.6rem;
     font-weight: 600;
@@ -198,7 +195,6 @@ nav .menu-itens a:nth-child(2){
 /* footer ------------- */
 
 footer{
-    font-family: 'Poppins', sans-serif;
     background-color: #36D6AD;
     color: white;
     margin-top: 1.6rem ;

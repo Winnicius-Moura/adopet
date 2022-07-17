@@ -111,6 +111,7 @@ nav .menu-itens img{
 
 #home .profile img{
     padding-top: 6rem;
+    cursor: pointer;
 }
 
 #home .profile p{
