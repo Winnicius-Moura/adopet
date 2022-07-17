@@ -26,6 +26,7 @@ body{
     background-origin: content-box;
     background-color: white;
     background-position:left top;
+    overflow: overlay;
 }
 
 ul{
@@ -88,8 +89,7 @@ nav .menu-itens a:nth-child(2){
     align-items: center;
     width: 100vw;
     height: 22rem;
-    margin-top: 3.2rem;
-    margin-bottom: 1.6rem;
+    margin-top: 1.6rem;
     margin-inline: auto;
 }
 
@@ -138,7 +138,6 @@ nav .menu-itens a:nth-child(2){
 footer{
     background-color: #36D6AD;
     color: white;
-    margin-top: 1.6rem ;
 }
 
 footer p{
