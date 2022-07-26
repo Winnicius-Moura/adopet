@@ -147,7 +147,6 @@ footer p{
     nav#navigation .menu-itens *{
         visibility: initial;
         display: initial;
-
     }
 
     #home .container *{
@@ -159,7 +158,6 @@ footer p{
         font-size: initial;
         font-weight: initial;
         color: initial;
-        visibility: initial;
     }
 
     body{

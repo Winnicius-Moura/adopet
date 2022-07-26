@@ -153,10 +153,6 @@ nav .menu-itens svg.logo{
     background-position: center right 1.6rem;
 }
 
-
-
-
-
 /* footer ------------- */
 
 footer{
@@ -171,4 +167,53 @@ footer p{
     line-height: 2.4rem;
     height: 400;
     text-align: center;
+}
+
+@media (min-width: 768px){
+/* Configs Reset -------- */
+    nav#navigation .menu-itens *{
+        visibility: initial;
+        display: initial;
+    }
+
+    body{
+        overflow: auto;
+        background-image: url("../assets/Patas.png"),url("../assets/Forma1.png"), url("../assets/Forma2.png");
+        background-size: 18.9rem 28.3rem, 55.6rem 47rem, 13.4rem 66.4rem;
+        background-position:right top, left top, bottom right;
+    }
+/* Nav ------------- */
+    #navigation .menu-itens svg.logo path{
+        fill: #FFFFFF;
+    }
+
+    #navigation .menu-itens a:nth-child(2){
+        margin-left: 6.5rem;
+    }
+/* Home ---------------- */
+    #home header svg{
+        width: 25.1rem;
+        height: 6.2rem;
+    }
+
+    #home .content{
+        width: 50rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #home .content p{
+        font-size: 1.8rem;
+    }
+
+    #home .registration form input::placeholder{
+        font-size: 1.4rem;
+    }
+
+    #home .registration form label.nome,input.nome{
+        order: -1;
+    }
+
 }
