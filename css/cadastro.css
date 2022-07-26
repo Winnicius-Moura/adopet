@@ -24,7 +24,7 @@ body{
     background-size: 18.9rem 28.3rem, 33.3rem 27.3rem, 8.4rem 41.5rem;
     background-origin: content-box;
     background-color: white;
-    background-position:right top, left top, center left;
+    background-position:right top, left top, bottom left;
 }
 
 .container{
@@ -50,8 +50,14 @@ nav .menu-itens{
     margin-right: 5.8rem;
 }
 
-nav .menu-itens a:nth-child(1){
+nav .menu-itens a:nth-child(2){
     margin-right: 5.8rem;
+}
+
+nav .menu-itens svg.logo{
+    width: 12.8rem;
+    visibility: hidden;
+    display: none;
 }
 
 /* SECTION HOME --------------------- */

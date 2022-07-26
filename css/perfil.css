@@ -51,16 +51,22 @@ nav .menu-itens{
     margin-right: 5.8rem;
 }
 
-nav .menu-itens a:nth-child(1){
+nav .menu-itens a:nth-child(2){
     margin-right: 5.8rem;
 }
 
-nav .menu-itens a:nth-child(2){
+nav .menu-itens a:nth-child(3){
     margin-right: 13.4rem;
 }
 
 nav .menu-itens img{
     width: 4rem;
+}
+
+nav .menu-itens svg.logo{
+    width: 12.8rem;
+    visibility: hidden;
+    display: none;
 }
 /* SECTION HOME --------------------- */
 

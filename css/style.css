@@ -26,7 +26,7 @@ body{
 }
 
 .container{
-    width: min(50rem, 100%);
+    width: min(120rem, 100%);
     margin-inline: auto;
     display: flex;
     justify-content: center;
@@ -48,14 +48,21 @@ nav .menu-itens{
     margin-right: 5.8rem;
 }
 
-nav .menu-itens a:nth-child(1){
+nav .menu-itens a:nth-child(2){
     margin-right: 5.8rem;
 }
 
+nav .menu-itens svg.logo{
+    width: 12.8rem;
+    visibility: hidden;
+    display: none;
+}
 /* SECTION HOME --------------------- */
 #home .container svg{
     margin-top: 17.5rem;
     margin-bottom: 3.1rem;
+    width: 18.6rem;
+    height: 4.6rem;
 }
 
 #home .container h1{
@@ -131,4 +138,126 @@ footer p{
     line-height: 2.4rem;
     height: 400;
     text-align: center;
+}
+
+
+/* Responsive ------------ Tablet */
+@media (min-width: 768px) {
+/* Configs Geral 768 ---- reset */
+    nav#navigation .menu-itens *{
+        visibility: initial;
+        display: initial;
+
+    }
+
+    #home .container *{
+        margin: 0;
+        padding: 0;
+        display: initial;
+        flex-direction: initial;
+        position: initial;
+        font-size: initial;
+        font-weight: initial;
+        color: initial;
+        visibility: initial;
+    }
+
+    body{
+        overflow: auto;
+        background-size: 56.097rem 47rem, 13.4rem 66.4rem;
+
+    }
+
+/* Nav -------- */
+
+    nav .menu-itens{
+        width: fit-content;
+        position: absolute;
+        display: flex;
+        align-items: center;
+    }
+
+    nav .menu-itens a:nth-child(2){
+        margin-left:6.8rem;
+    }
+
+    nav .menu-itens svg.logo path{
+        fill: #ffffff;
+    }
+
+    #home .container header{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-inline: auto;
+    }
+
+    #home .container header svg{
+        width: 24.1rem;
+        margin-top: 27.3rem;
+    }
+
+    #home .container header svg path{
+        fill: #FCF0E3;
+    }
+
+    #home .container h1{
+        font-size: 2.8rem;
+        line-height: 4.8rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #home .content{
+        width: 34.4rem;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-inline: auto;
+        
+    }
+
+    #home .content p{
+        visibility: hidden;
+        position: relative;
+        margin-bottom: 3.4rem;
+
+    }
+
+    #home .content p:after{
+        visibility: visible;
+        text-align: center;
+        font-weight: 400;
+        line-height: 2.6rem;
+        font-size: 1.8rem;
+    
+        content: "Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? \A" "Vem com a gente!";
+        white-space: pre-wrap;
+        
+    }
+
+    #home .content .button{
+        width: 34.4rem;
+        font-size: 1.8rem;
+    }
+
+    #home .content img{
+        width: 33.8rem;
+        position: absolute;
+        margin-top: 4rem;
+        top: 715px;
+    }
+
+    footer{
+        margin-top: 48rem;
+    }
+}
+
+
+@media (min-width: 1440px){
+    body{
+        background-color: green;
+    }
 }

@@ -27,26 +27,25 @@ body{
     background-color: white;
     background-position:left top;
     overflow: overlay;
-    width: 36rem;
-    margin-inline: auto;
+    /* width: 100vw; */
+    /* margin-inline: auto; */ 
 }
 
 ul{
     list-style:none;
 }
 .container{
-    width: min(36rem, 100%);
     margin-inline: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
 }
+
 
 /* NAV BAR --------------------- */
 nav{
-    width: min(170rem, 100%);
+    width: 100vw;
     margin-inline: auto;
 }
 nav .menu-itens{
@@ -58,19 +57,25 @@ nav .menu-itens{
     margin-right: 5.8rem;
 }
 
-nav .menu-itens a:nth-child(1){
+nav .menu-itens a:nth-child(2){
     margin-right: 5.8rem;
 }
 
-nav .menu-itens a:nth-child(2){
+nav .menu-itens a:nth-child(3){
     margin-right: 13.4rem;
+}
+
+nav .menu-itens svg.logo{
+    width: 12.8rem;
+    visibility: hidden;
+    display: none;
 }
 /* SECTION HOME --------------------- */
 
 #home .content{
-    width: 100vw;
     text-align: center;
     margin-top: 6rem;
+    margin-inline: auto;
 }
 
 #home .content p{
@@ -86,15 +91,23 @@ nav .menu-itens a:nth-child(2){
 }
 
 /* Pets #home --------------- */
+#home .petsList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    margin-inline: auto;
+    width: min(120rem,100%);
+    align-items: center;
+    justify-content: center;
+}
+
 #home .pets{
     background-color: var(--bg-gray);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 36rem;
+    width: 36.2rem;
     height: 22rem;
-    margin-top: 1.6rem;
-    margin-inline: auto;
 }
 
 #home .pets img{
