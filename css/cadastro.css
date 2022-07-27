@@ -21,7 +21,7 @@ html{
 body{
     background-image: url("../assets/Patas.png"),url("../assets/Forma1.png"), url("../assets/Forma-2.png");
     background-repeat: no-repeat;
-    background-size: 18.9rem 28.3rem, 33.3rem 27.3rem, 8.4rem 41.5rem;
+    background-size: 189px, 243.41px, 33.3rem 27.3rem, 8.4rem 41.5rem;
     background-origin: content-box;
     background-color: white;
     background-position:right top, left top, bottom left;
@@ -53,7 +53,6 @@ nav .menu-itens{
 nav .menu-itens a:nth-child(2){
     margin-right: 5.8rem;
 }
-
 nav .menu-itens svg.logo{
     width: 12.8rem;
     visibility: hidden;
@@ -62,7 +61,7 @@ nav .menu-itens svg.logo{
 
 /* SECTION HOME --------------------- */
 #home .container svg{
-    margin-top: 15.6rem;
+    margin-top: 6.1rem;
     margin-bottom: 3.1rem;
 }
 
@@ -171,9 +170,10 @@ footer p{
 
 @media (min-width: 768px){
 /* Configs Reset -------- */
-    nav#navigation .menu-itens *{
+    nav#navigation *{
         visibility: initial;
         display: initial;
+        margin-top: 0;
     }
 
     body{
@@ -186,14 +186,25 @@ footer p{
     #navigation .menu-itens svg.logo path{
         fill: #FFFFFF;
     }
-
+    
     #navigation .menu-itens a:nth-child(2){
         margin-left: 6.5rem;
+
+    }
+
+    #navigation .menu-itens{
+        display: flex;
+        align-items: center;
     }
 /* Home ---------------- */
-    #home header svg{
-        width: 25.1rem;
-        height: 6.2rem;
+    #home .container header svg{
+        height: 62px;
+        width: 25.15rem;
+        margin-top: 10rem;
+    }
+
+    #home .container{
+        margin-top: 0;
     }
 
     #home .content{

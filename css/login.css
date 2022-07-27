@@ -174,3 +174,42 @@ footer p{
     height: 400;
     text-align: center;
 }
+
+@media (min-width: 768px){
+    
+    nav#navigation *{
+        display: initial;
+        visibility: initial;
+        margin-top: 0;
+    }
+
+    body{
+        overflow: auto;
+        background-image: url("../assets/Patas.png"),url("../assets/Forma1.png"), url("../assets/Forma2.png");
+        background-size: 18.9rem 28.3rem, 55.6rem 47rem, 13.4rem 66.4rem;
+        background-position:right top, left top, bottom right;
+    }
+
+    #navigation .menu-itens{
+        display: flex;
+        align-items: center;
+    }
+
+    #navigation .menu-itens svg.logo{
+        margin-right: 6.5rem;
+    }
+
+    #navigation .menu-itens svg.logo path{
+        fill: #FFFFFF;
+    }
+
+    #home .container header svg{
+        height: 62px;
+        width: 25.15rem;
+        margin-top: 10rem;
+    }
+
+    #home .content p{
+        font-size: 1.8rem;
+    };
+}
