@@ -27,8 +27,6 @@ body{
     background-color: white;
     background-position:left top;
     overflow: overlay;
-    /* width: 100vw; */
-    /* margin-inline: auto; */ 
 }
 
 ul{
@@ -76,6 +74,7 @@ nav .menu-itens svg.logo{
     text-align: center;
     margin-top: 6rem;
     margin-inline: auto;
+    width: 100vw;
 }
 
 #home .content p{
@@ -96,7 +95,7 @@ nav .menu-itens svg.logo{
     flex-wrap: wrap;
     gap: 1.6rem;
     margin-inline: auto;
-    width: min(120rem,100%);
+    width: min(170rem,100%);
     align-items: center;
     justify-content: center;
 }
@@ -164,4 +163,50 @@ footer p{
     line-height: 2.4rem;
     height: 400;
     text-align: center;
+}
+
+@media (min-width: 768px){
+
+    body{
+        background-size: 55.98rem 46.9rem;
+        overflow: auto;
+    }
+
+    nav#navigation *{
+        display: initial;
+        visibility: initial;
+        margin-top: 0;
+    }
+
+    nav .menu-itens a:nth-child(3){
+        margin-right: 32.5rem;
+    }
+
+    #navigation .menu-itens{
+        display: flex;
+        align-items: center;
+    }
+
+    #navigation .menu-itens svg.logo path{
+        fill: #FFFFFF;
+    }
+
+    #navigation .menu-itens svg.logo{
+        margin-right: 6.5rem;
+    }
+
+    #home .petsList article.pets:last-child{
+        position: relative;
+        margin-right:392px;
+        margin-left: 13px;
+        margin-bottom: 3.2rem;
+    }
+
+    #home .petsList{
+        margin-left: 1rem;
+    }
+
+    #home .content{
+        margin-top: 18.8rem;
+    }
 }
