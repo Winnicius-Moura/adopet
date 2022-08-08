@@ -174,29 +174,30 @@ nav .menu-itens svg.logo{
 }
 
 #home .registration form textarea{
-    color: #BCBCBC;
+    color: var(--color-forms);
     width: 28rem;
     height: 17.6rem;
 
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
-    text-align: center;
+    text-align: left;
     margin-left: 1.6rem;
     border: none;
     outline: none;
     resize: none;
+    padding-left: .6rem;
+    padding-top: .6rem;
 }
 
 #home .registration form textarea::placeholder{
     font-size: 1.4rem;
     line-height: 2.4rem;
     font-weight: 400;
+    padding: 1.6rem 1.2rem;
+    text-align: left;
 }
 
-#home .registration #sobre{
-    text-align: left;
-    padding: 1.6rem;
-}
+
 
 
 #home .container .button{
@@ -308,7 +309,7 @@ footer p{
     }
 }
 
-@media (min-width:1440px){
+@media (min-width:1280px){
 
     nav .menu-itens a:nth-child(3){
         margin-right: 79.8rem;

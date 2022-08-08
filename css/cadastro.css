@@ -227,5 +227,14 @@ footer p{
     #home .registration form label.nome,input.nome{
         order: -1;
     }
+}
 
+@media (min-width:1280px){
+    #navigation .menu-itens svg.logo{
+        margin-left: 16.1rem;
+    }
+
+    #navigation .menu-itens{
+        margin-left: 0;
+    }
 }
