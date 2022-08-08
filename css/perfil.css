@@ -301,8 +301,24 @@ footer p{
     #home .container{
         width: 100%;
     }
+
     #home .content{
         width: 52.4rem;
         margin-top: 10rem;
+    }
+}
+
+@media (min-width:1440px){
+
+    nav .menu-itens a:nth-child(3){
+        margin-right: 79.8rem;
+    }
+
+    #navigation .menu-itens svg.logo{
+        margin-left: 16.1rem;
+    }
+
+    #navigation .menu-itens{
+        margin-left: 0;
     }
 }

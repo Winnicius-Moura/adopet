@@ -252,9 +252,8 @@ footer p{
     }
 }
 
-
 @media (min-width: 1440px){
-    body{
-        background-color: green;
+    #navigation .menu-itens{
+        margin-left: 16.1rem;
     }
 }

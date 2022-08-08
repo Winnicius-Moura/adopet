@@ -211,5 +211,11 @@ footer p{
 
     #home .content p{
         font-size: 1.8rem;
-    };
+    }
+}
+
+@media (min-width: 1440px){
+    body{
+        background-position:right top, left top, center right;
+    }
 }
