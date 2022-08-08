@@ -66,13 +66,6 @@ nav .menu-itens svg.logo{
 }
 /* SECTION HOME --------------------- */
 
-#home .registration{
-    background-color: var(--bg-gray);
-    width: 31.2rem;
-    height: auto;
-    border-radius: 1rem;
-}
-
 #home .content{
     width: 31.2rem;
     margin-left: 6.7rem;
@@ -94,6 +87,13 @@ nav .menu-itens svg.logo{
 }
 
 /* Formulario #home --------------- */
+
+#home .registration{
+    background-color: var(--bg-gray);
+    width: 31.2rem;
+    height: auto;
+    border-radius: 1rem;
+}
 
 #home .registration form{
     display: flex;
@@ -212,4 +212,71 @@ footer p{
     line-height: 2.4rem;
     height: 400;
     text-align: center;
+}
+
+
+@media (min-width: 768px){
+    body{
+        overflow: auto;
+        background-image:url("../assets/Forma1.png"), url("../assets/Forma2.png");
+        background-size:55.6rem 47rem, 13.4rem 66.4rem;
+        background-position:left top, center right;
+    }
+    nav#navigation *{
+        display: initial;
+        visibility: initial;
+        margin-top: 0;
+    }
+
+    #home *{
+        margin:0;
+        padding: 0;
+    }
+
+    nav .menu-itens a:nth-child(3){
+        margin-right: 32.5rem;
+    }
+
+    #navigation .menu-itens{
+        display: flex;
+        align-items: center;
+    }
+    
+    #navigation .menu-itens svg.logo path{
+        fill: #FFFFFF;
+    }
+
+    #navigation .menu-itens svg.logo{
+        margin-right: 6.5rem;
+    }
+
+    #home .content p{
+        font-size: 1.8rem;
+        width: 52.4rem;
+        font-weight: 400;
+        line-height: 2.6rem;
+     
+    }
+    #home .registration{
+        background-color: var(--bg-gray);
+        width: 52.4rem;
+        height: auto;
+        border-radius: 1rem;
+    }
+
+    #home .registration form input{
+        width: 49.2rem;
+    }
+
+    #home .registration form textarea{
+        width: 49.2rem
+    }
+
+    #home .container{
+        width: 100%;
+    }
+    #home .content{
+        width: 52.4rem;
+        margin-top: 10rem;
+    }
 }
