@@ -21,7 +21,7 @@ html{
 body{
     background-image: url("../assets/Patas.png"),url("../assets/Forma1.png"), url("../assets/Forma-2.png");
     background-repeat: no-repeat;
-    background-size: 189px, 243.41px, 33.3rem 27.3rem, 8.4rem 41.5rem;
+    background-size: 189px 243.41px, 33.3rem 27.3rem, 82.73px 415px;
     background-origin: content-box;
     background-color: white;
     background-position:right top, left top, bottom left;

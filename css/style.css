@@ -252,7 +252,7 @@ footer p{
     }
 }
 
-@media (max-width: 1440px){
+@media (min-width: 1440px){
     #navigation .menu-itens{
         margin-left: 16.1rem;
     }

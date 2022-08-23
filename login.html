@@ -57,20 +57,21 @@
                     Já tem conta? Faça seu login:
                 </p>
                 <div class="registration">
-                    <form action="">
+                    <form action="./home.html">
 
-                        <label for="Email">Email</label>
-                        <input type="Email" placeholder="Insira seu email">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Insira seu email">
 
-                        <label for="Senha">Senha</label>
-                        <input type="Password" placeholder="Insira sua senha" class="senha">
+                        <label for="senha">Senha</label>
+                        <input type="password" placeholder="Insira sua senha" class="senha" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" title="A senha deve ter no mínimo 8 caracteres e conter letras maiúsculas, minúsculas, números e símbolos">
 
                         <a href="#">Esqueci minha senha</a>
+
+                        <button href="./home.html" class="button login">Entrar</button>
 
                     </form>
 
                 </div>
-                <a href="./home.html" class="button">Entrar</a>
             </div>
         </div>
     </section>

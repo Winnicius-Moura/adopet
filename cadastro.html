@@ -60,21 +60,22 @@
                 <div class="registration">
                     <form action="">
 
-                        <label for="Email">Email</label>
-                        <input type="Email" placeholder="Escolha seu melhor email">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Escolha seu melhor email" required>
 
-                        <label for="Nome" class="nome">Nome</label>
-                        <input type="Text" class="nome" placeholder="Digite seu nome completo">
+                        <label for="nome" class="nome">Nome</label>
+                        <input type="nome" class="nome" placeholder="Digite seu nome completo" required>
 
-                        <label for="Senha">Senha</label>
-                        <input type="Password" placeholder="Crie uma senha" class="senha">
+                        <label for="senha">Senha</label>
+                        <input type="password" placeholder="Crie uma senha" class="senha" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" title="A senha deve ter no mínimo 8 caracteres e conter letras maiúsculas, minúsculas, números e símbolos">
 
-                        <label for="Senha">Confirma sua senha</label>
-                        <input type="Password" placeholder="Repita a senha criada acima" class="senha">
+                        <label for="senha">Confirma sua senha</label>
+                        <input type="password" placeholder="Repita a senha criada acima" class="senha">
+                        
                     </form>
 
                 </div>
-                <a href="#" class="button">Cadastrar</a>
+                <a href="#" class="button cadastro">Cadastrar</a>
             </div>
         </div>
     </section>
